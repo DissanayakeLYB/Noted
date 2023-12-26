@@ -6,7 +6,7 @@ body {
   background-color: #f9f9f9;
 }
 
-header, nav, main, footer {
+header, nav, main, aside, footer {
   margin: 20px;
 }
 
@@ -30,6 +30,7 @@ nav li {
 nav a {
   text-decoration: none;
   color: #333;
+  transition: color 0.3s ease;
 }
 
 /* Article Styles */
@@ -43,6 +44,36 @@ article {
 
 article h2 {
   color: #333;
+}
+
+/* Popular Posts Widget Styles */
+.popular-posts-widget {
+  background-color: #f9f9f9;
+  padding: 10px;
+}
+
+.popular-posts-widget h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.popular-posts-widget ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.popular-posts-widget li {
+  margin-bottom: 5px;
+}
+
+.popular-posts-widget a {
+  text-decoration: none;
+  color: #333;
+}
+
+.popular-posts-widget a:hover {
+  color: #ff6600;
 }
 
 /* Footer Styles */
@@ -62,4 +93,42 @@ nav a:hover {
 
 footer p {
   font-size: 12px;
+}
+
+/* Custom Colors */
+body {
+  --primary-color: #ff6600;
+  --background-color: #f9f9f9;
+  --text-color: #333;
+}
+
+header {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 20px;
+}
+
+nav a {
+  color: var(--text-color);
+}
+
+article {
+  background-color:#fff;
+}
+
+.popular-posts-widget {
+  background-color: var(--background-color);
+}
+
+.popular-posts-widget a {
+  color: var(--text-color);
+}
+
+.popular-posts-widget a:hover {
+  color: var(--primary-color);
+}
+
+footer {
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
