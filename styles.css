@@ -1,0 +1,65 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+header, nav, main, footer {
+  margin: 20px;
+}
+
+/* Header Styles */
+header {
+  text-align: center;
+}
+
+/* Navigation Styles */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Article Styles */
+article {
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+article h2 {
+  color: #333;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  color: #999;
+}
+
+/* Additional Styles */
+h1 {
+  color: #333;
+}
+
+nav a:hover {
+  color: #ff6600;
+}
+
+footer p {
+  font-size: 12px;
+}
