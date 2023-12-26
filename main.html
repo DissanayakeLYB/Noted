@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Blog</title>
+  <title>LD</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="script.js"></script>
 </head>
 <body>
   <header>
     <h1>Welcome to My Blog</h1>
+    <div class="slideshow">
+      <img src="image1.jpg" alt="Image 1">
+      <img src="image2.jpg" alt="Image 2">
+      <img src="image3.jpg" alt="Image 3">
+    </div>
   </header>
   
   <nav>
@@ -30,8 +36,22 @@
     </article>
   </main>
   
+  <aside>
+    <div class="popular-posts-widget">
+      <h3>Popular Posts</h3>
+      <ul>
+        <li><a href="#">Post 1</a></li>
+        <li><a href="#">Post 2</a></li>
+        <li><a href="#">Post 3</a></li>
+        <li><a href="#">Post 4</a></li>
+      </ul>
+    </div>
+  </aside>
+  
   <footer>
     <p>&copy; 2023 My Blog. All rights reserved.</p>
   </footer>
+  
+  <div class="progress-indicator"></div>
 </body>
 </html>
